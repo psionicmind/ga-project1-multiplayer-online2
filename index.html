@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.socket.io/4.7.4/socket.io.min.js" integrity="sha384-Gr6Lu2Ajx28mzwyVR8CFkULdCU7kMlZ9UthllibdOSo6qAiN+yXNHqtgdTvFXMT4" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="style.css" />    
+
+</head>
+
+<body>
+    <div class="serverclient-panel">
+        <input type="text" class="client-IP" placeholder="Please Enter Server IP to connect to"></input>        
+        <button class="submit-server-ip">Go Online!</button>
+        <button class="add-mainplayer-online">Add Main Player Online</button>
+    </div>
+    <div class="control-panel">
+        <button class="start-countdown-button">Start</button>        
+        <label class="countdown-labelno3">3</label>
+        <label class="countdown-labelno2">2</label>
+        <label class="countdown-labelno1">1</label>
+        <label class="countdown-labelGo">Go!</label>
+        <button class="add-side-player">Add Side Player</button>
+        <input type="text" class="add-side-player-name" placeholder="Zyder"></input>
+    </div>
+    <div class="container">
+        <div class="race">
+            <div class="timer" id="stopwatch">Timer 00:00</div>
+            <button class="reset-game">Reset Game</button>
+            <button class="show-solution">Show Solution</button>
+            <div class="steps">Number of Steps:0</div>
+        </div>
+        <div class="hanoi-board">
+            <div class="tower">
+                <div class="stick"></div>
+                <div class="base-plate"></div>
+            </div>
+            <div class="tower">
+                <div class="stick"></div>
+                <div class="base-plate"></div>
+            </div>
+            <div class="tower">
+                <div class="stick"></div>
+                <div class="base-plate"></div>
+            </div>                        
+        </div>
+        <div class="feedback">
+            Welcome to Tower of Hanoi !
+        </div>
+    </div>
+  
+</body>
+<script src="script.js"></script>  
+</html>
