@@ -20,6 +20,9 @@ Tower of Hanoi is a mathematical game which consist of three sticks and a number
 # Tech Stack
 JavaScript, HTML, CSS
 
+# WebSocket Server
+server will be run as "node index.js" at websocket server folder.
+
 # Rules
 Game rules:
 1. Only one disc may be moved at a time.
